@@ -38,7 +38,8 @@ import (
 	"github.com/oam-dev/kubevela/version"
 )
 
-func main() {
+func
+main() {
 	s := &Server{}
 	flag.StringVar(&s.serverConfig.BindAddr, "bind-addr", "0.0.0.0:8000", "The bind address used to serve the http APIs.")
 	flag.StringVar(&s.serverConfig.MetricPath, "metrics-path", "/metrics", "The path to expose the metrics.")
